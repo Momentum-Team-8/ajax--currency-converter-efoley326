@@ -3,3 +3,35 @@
   margin: 0;
   padding: 0;
 }
+.container {
+  box-sizing: border-box;
+  width: 400px;
+  height: 300px;
+  padding: 30px;
+  display: flex-box;
+  border-width: 2px;
+  border-color: black;
+  background-color: lightgray;
+  color: black;
+  justify-content: left;
+
+  h1 {
+    text-size: 30px;
+    color: black;
+  }
+  
+  h2 {
+    box-sizing: border-box;
+  }
+  
+  button {
+    box-sizing: border-box;
+    width: 40px;
+    height:20pz;
+    font-size: auto 0;
+    background-color: lightgray;
+    color: black;
+  }
+
+
+}
